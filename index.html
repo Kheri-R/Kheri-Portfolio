@@ -1,52 +1,80 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Roselyne Kheri - Web Developer</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Roselyne Kheri- Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <header>
+        <h3>Roselyne Kheri</h3>
+        <div class="nav-links">
+          <a href="#home">About</a>
+          <a href="#about">About</a>
+          <a href="#contacts">Contacts</a>
+        </div>
+      </header>
+    </nav>
 
-<header>
-    <h1>Roselyne Kheri</h1>
-    <p>Web Developer</p>
-</header>
+    <section id="home" class="home-content">
+        <img src="C:\Users\Administrator\Desktop\kheri portifolio\kheri-portifolio\IMG_20220906_094433.jpg" alt="profile picture"
+      <div class="home-desc">
+        <h3>Roselyne Kheri</h3>
+        <p>
+            Iam a passionate and detail-oriented web developer. With a strong foundation in HTML, CSS, and JavaScript, I thrive on turning ideas into interactive and user-friendly websites. My journey in web development began with a curiosity for creating digital experiences, and it has evolved into a commitment to staying updated with the latest technologies.
 
-<section>
-    <h2>About Me</h2>
-    <p>Hello, I'm Roselyne Kheri, a passionate and detail-oriented web developer. With a strong foundation in HTML, CSS, and JavaScript, I thrive on turning ideas into interactive and user-friendly websites. My journey in web development began with a curiosity for creating digital experiences, and it has evolved into a commitment to staying updated with the latest technologies.
+            I enjoy the process of problem-solving and find satisfaction in crafting elegant solutions. Whether it's designing responsive layouts, implementing dynamic features, or optimizing for performance, I approach each project with enthusiasm and dedication. My goal is not just to write code but to create seamless and enjoyable online experiences.
+        
+            Beyond coding, I'm an avid learner, always exploring new frameworks and tools to enhance my skill set. I believe in the power of collaboration and am eager to contribute my expertise to innovative projects. Let's build something incredible together!
+          
 
-    I enjoy the process of problem-solving and find satisfaction in crafting elegant solutions. Whether it's designing responsive layouts, implementing dynamic features, or optimizing for performance, I approach each project with enthusiasm and dedication. My goal is not just to write code but to create seamless and enjoyable online experiences.
-
-    Beyond coding, I'm a certified psychologist and an avid learner, always exploring new frameworks and tools to enhance my skill set. I believe in the power of collaboration and am eager to contribute my expertise to innovative projects. Let's build something incredible together!
-
-</section>
-
-<section>
-    <h2>Skills</h2>
-    <ul>
-        <li>HTML</li>
+        </p> <section id="about" class="about-content">
+        <div class="about-desc">
+        <h3>ABOUT ME</h3>
+        <p>
+        I am also a psychologist with a bachelors of arts in psychology and sociology, residing in Malindi, Kenya.
+        I love coding and enjoy motivational talking.I am currently working on developing my online counselling app so as to crete a virtual safe space accesssible to everyone at any time.
+        I posses the following skills
+        <li>Coding languages</li>
+        <li>software design</li>
         <li>CSS</li>
-        <li>JavaScript</li>
-        <li>SQL and database management</li> 
-    </ul>
-</section>
+        <li>database manage</li>
+        <li>counselling</li>
+        <li>Javascript</li>
+    
+    </section>
+    <section id="contacts" class="contact-content">
+      <h3>Contacts</h3>
+      <li>roselynekheri@gmail.com</li>
+      <li>+254792508315</li>
+      <div class="contact-desc">
+        
+        <form action="https://formspree.io/f/roselynekheri@gmail.com"
+        method="POST"> 
+            <h2>leave me a message</h2>
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name" required/>
+    
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" required/>
+    
+            <label for="message">message: </label>
+            <input type="message" id="message" name="message" required/>
+    
+            <button type="submit">submit</button>
+        </form>
+    </section>
 
-<section>
-    <h2>Contact Me</h2>
-    <form action="https://formspree.io/roselynekheri@gmail.com" method="POST">
-      <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        <button type="submit">Submit</button>
-    </form>
-</section>
-
-<footer>
-    <p>kheri</p>
-</footer>
-
-</body>
+        </div>
+        <p>web by Roselyne Kheri </p>
+      </div>
+    </section>
+  </body>
 </html>
